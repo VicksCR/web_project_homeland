@@ -1,4 +1,4 @@
-.intro__content {
+.intro {
   width: 100%;
   max-width: 830px;
   margin-top: 92px;
@@ -56,7 +56,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .intro__content {
+  .intro {
     max-width: 720px;
     margin: 90px auto 0;
   }
@@ -85,7 +85,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .intro__content {
+  .intro {
     max-width: 288px;
     margin-top: 64px;
     margin: auto;
