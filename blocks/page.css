@@ -1,0 +1,20 @@
+.page {
+  background-color: #2a2c2f;
+  width: 100%;
+  max-width: 1280px;
+  height: 100%;
+  min-height: 100vh;
+  font-family: "Inter", "InterBlack", "InterSemibold";
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
+}
