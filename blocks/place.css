@@ -1,0 +1,45 @@
+.place {
+  max-width: 987px;
+  width: 100%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(288px, 1 fr);
+  padding-top: 92px;
+}
+
+.place__title {
+  width: 460px;
+  height: 152px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #FFFFFF;
+}
+
+.place__image {
+width: 460px;
+height: 460px;
+object-fit: cover;
+}
+
+.place__website {
+  width: 456px;
+}
+
+.place__paragraph {
+  width: 484px;
+}
+
+.place__button {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 13px 20px;
+width: 289px;
+height: 48px;
+background-color: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
