@@ -1,4 +1,4 @@
-.photo__grid-container {
+.photo__grid {
   max-width: 1184px;
   width: 100%;
   margin: auto;
@@ -16,7 +16,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .photo__grid-container {
+  .photo__grid {
     max-width: 720px;
     padding-top: 64px;
   }
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .photo__grid-container {
+  .photo__grid {
     max-width: 288px;
     padding-top: 38px;
   }
