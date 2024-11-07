@@ -6,6 +6,7 @@
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
   gap: 16px;
   padding-top: 118px;
+  justify-items: center;
 }
 
 .photo-grid__image {
